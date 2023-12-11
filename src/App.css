@@ -1,0 +1,49 @@
+* {
+  list-style-type: none;
+  text-decoration: none !important;
+}
+.z_50 {
+  z-index: 50 !important;
+}
+.c_pointer {
+  cursor: pointer;
+}
+.mw_1320 {
+  max-width: 1320px;
+}
+
+/* nav bar */
+.sm_nav {
+  position: fixed;
+  z-index: 4 !important;
+  bottom: 0;
+  left: -100%;
+  height: 100vh;
+  width: 100%;
+  background: var(--bg-darkgreen);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms linear !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+.lh_normal {
+  line-height: normal;
+}
+.bg_parrot {
+  background: #d2f038;
+}
+.nav_btn {
+  height: 80px;
+  padding: 0px 31.759px 0px 31.637px;
+  border: none !important;
+}

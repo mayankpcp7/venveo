@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Maison Neue";
+  src: url("./assets/fonts/Maison-neue/FontsFree-Net-Maison-Neue-Light.ttf");
+  src: url("./assets/fonts/Maison-neue/MaisonNeue-Medium.otf");
+  src: url("./assets/fonts/Maison-neue/MaisonNeue-Mono.ttf");
+}
+@font-face {
+  font-family: "Söhne Schmal";
+  src: url("./assets/fonts/soehne/soehne-schmal-dreiviertelfett.woff2");
+}
+.ff_sohne {
+  font-family: "Söhne Schmal";
+}
+.ff_maison {
+  font-family: "Maison Neue";
+}
+:root {
+  --fs-15: 15px;
+  --fs-6: 6px;
+}
+.fs_15{
+  font-size: var(--fs-15);
+}
+.fs_6{
+  font-size: var(--fs-6);
+}
