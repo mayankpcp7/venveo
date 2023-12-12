@@ -4,6 +4,7 @@ import People from "./components/People";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Passion from "./components/Passion";
 import CoreValues from "./components/CoreValues";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -11,7 +12,8 @@ function App() {
         <Header />
         <Passion />
         <CoreValues />
-        <People/>
+        <People />
+        <Footer/>
       </div>
     </>
   );

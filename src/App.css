@@ -171,3 +171,52 @@
   margin-left: 134px;
   margin-right: 105px;
 }
+/* -----------------------------------People---------------------------------- */
+.hw_people {
+  max-width: 329px;
+  height: 365px;
+}
+.bg_seagreen {
+  background-color: #00999e;
+}
+.trty_48 {
+  transform: translateY(-48px);
+}
+.mt_149 {
+  margin-top: 149px;
+}
+.px_slider {
+  padding-left: 22px;
+  padding-right: 16px;
+}
+.hw_icon {
+  width: 45px;
+  height: 45px;
+}
+.mw_325 {
+  max-width: 325px;
+}
+.mw_315 {
+  max-width: 315px;
+}
+.lh_133 {
+  line-height: 133%;
+}
+.slick-track {
+  display: flex !important;
+}
+.slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+.slick-slide > div {
+  display: flex;
+}
+.bg_darksky {
+  background-color: #097980;
+}
+/* -------------------------------footer------------------------*/
+.mx_footer {
+  margin-left: 60px;
+  margin-right: 72px;
+}
