@@ -17,10 +17,18 @@
 :root {
   --fs-15: 15px;
   --fs-6: 6px;
+  --fs-80: 80px;
+  --fs-30: 30px;
 }
-.fs_15{
+.fs_15 {
   font-size: var(--fs-15);
 }
-.fs_6{
+.fs_6 {
   font-size: var(--fs-6);
+}
+.fs_80 {
+  font-size: var(--fs-80);
+}
+.fs_30 {
+  font-size: var(--fs-30);
 }

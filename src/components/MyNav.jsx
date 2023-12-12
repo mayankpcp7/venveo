@@ -159,7 +159,7 @@ const MyNav = () => {
               show ? "" : "start-0"
             }`}
           >
-            <li className="px-3 mx-2">
+            <li>
               <div class="dropdown">
                 <a
                   className="ff_maison fw-medium fs_15 text-black lh_normal"
@@ -195,7 +195,7 @@ const MyNav = () => {
                 </ul>
               </div>
             </li>
-            <li className="px-3 mx-2">
+            <li>
               <div class="dropdown">
                 <a
                   className="ff_maison fw-medium fs_15 text-black lh_normal"
@@ -231,7 +231,7 @@ const MyNav = () => {
                 </ul>
               </div>
             </li>
-            <li className="px-3 mx-2">
+            <li>
               <div class="dropdown">
                 <a
                   className="ff_maison fw-medium fs_15 text-black lh_normal"
@@ -267,7 +267,7 @@ const MyNav = () => {
                 </ul>
               </div>
             </li>
-            <li className="px-3 mx-2 ">
+            <li>
               <a
                 className="fs_15 text-black ff_maison fw-medium"
                 href="you.com"
@@ -275,11 +275,11 @@ const MyNav = () => {
                 Resources
               </a>
             </li>
-            <li className="px-3 mx-2">
-              <img src={search} alt="search" />
+            <li >
+              <img className="c_pointer" src={search} alt="search" />
             </li>
 
-            <button className="bg_parrot ff_maison fw-semibold nav_btn border-none ms-3">
+            <button className="bg_parrot ff_maison fw-semibold nav_btn border-none">
               Let’s Talk <img className="pb-1" src={arrow} alt="arrow" />
             </button>
           </ul>

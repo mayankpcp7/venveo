@@ -47,3 +47,127 @@
   padding: 0px 31.759px 0px 31.637px;
   border: none !important;
 }
+/* -----------------------Header--------------------- */
+.clr_sky {
+  color: #00afb5;
+}
+.hw_800 {
+  height: 800px;
+  width: 800px;
+}
+.fs_120 {
+  font-size: 120px;
+}
+.lh_86 {
+  line-height: 86.667%;
+}
+.lh_166 {
+  line-height: 166.667%;
+}
+.mw_396 {
+  max-width: 396px;
+}
+.mw_426 {
+  max-width: 426px;
+}
+.current_btn {
+  height: 80px;
+  width: 253px;
+  border: none;
+}
+.bg_red {
+  background: #ff4242;
+}
+.ms_132 {
+  margin-left: 132px;
+}
+.navlogo {
+  position: absolute;
+  top: 29.99px;
+  left: 57px;
+}
+.mt_121 {
+  margin-top: 121px;
+}
+.bottom_middle {
+  bottom: -23%;
+}
+/* ====================passion============ */
+.bg_passion {
+  background-image: url(./assets/images/png/bg_passion.png);
+  background-size: cover;
+  background-position: center;
+}
+.lh_normal {
+  line-height: normal;
+}
+.py_113 {
+  padding-top: 113px;
+  padding-bottom: 114px;
+}
+.lh_87 {
+  line-height: 87.5%;
+}
+.mw_621 {
+  max-width: 621px;
+}
+.lh_133 {
+  line-height: 133%;
+}
+/* ================Core Values==================== */
+.hw_honor {
+  width: 748px;
+  height: 532px;
+}
+.mw_433 {
+  max-width: 433px;
+}
+.me_171 {
+  margin-right: 171px;
+}
+.honor_1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.honor_circle {
+  background-color: #5cd93d;
+  border-radius: 50%;
+  height: 176px;
+  width: 176px;
+  right: -10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.lh_87 {
+  line-height: 87.5%;
+}
+.mt_246 {
+  margin-top: 246px;
+}
+.mw_1201 {
+  max-width: 1201px;
+}
+.hw_drive {
+  max-width: 628px;
+}
+.drive_circle {
+  background-color: #5cd93d;
+  border-radius: 50%;
+  height: 176px;
+  width: 176px;
+  left: 0;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.drive_2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.mx_drive {
+  margin-left: 134px;
+  margin-right: 105px;
+}
