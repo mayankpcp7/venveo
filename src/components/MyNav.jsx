@@ -25,7 +25,43 @@ const MyNav = () => {
             <li className="px-3 mx-2">
               <div class="dropdown">
                 <a
-                  className="ff_maison fw-medium fs_15 text-black lh_normal"
+                  className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
+                  href="#"
+                >
+                  How We Help <span className="fs_6">▼</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li>
+                    <a
+                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      href="#"
+                    >
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      href="#"
+                    >
+                      Another action
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      href="#"
+                    >
+                      Something else here
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li className="px-3 mx-2">
+              <div class="dropdown">
+                <a
+                  className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
                   href=""
                 >
                   How We Help <span className="fs_6">▼</span>
@@ -61,43 +97,7 @@ const MyNav = () => {
             <li className="px-3 mx-2">
               <div class="dropdown">
                 <a
-                  className="ff_maison fw-medium fs_15 text-black lh_normal"
-                  href=""
-                >
-                  How We Help <span className="fs_6">▼</span>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li>
-                    <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
-                      href="#"
-                    >
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
-                      href="#"
-                    >
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
-                      href="#"
-                    >
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li className="px-3 mx-2">
-              <div class="dropdown">
-                <a
-                  className="ff_maison fw-medium fs_15 text-black lh_normal"
+                  className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
                   href=""
                 >
                   How We Help <span className="fs_6">▼</span>
@@ -162,7 +162,7 @@ const MyNav = () => {
             <li>
               <div class="dropdown">
                 <a
-                  className="ff_maison fw-medium fs_15 text-black lh_normal"
+                  className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
                   href=""
                 >
                   How We Help <span className="fs_6">▼</span>
@@ -198,7 +198,7 @@ const MyNav = () => {
             <li>
               <div class="dropdown">
                 <a
-                  className="ff_maison fw-medium fs_15 text-black lh_normal"
+                  className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
                   href=""
                 >
                   How We Help <span className="fs_6">▼</span>
@@ -234,7 +234,7 @@ const MyNav = () => {
             <li>
               <div class="dropdown">
                 <a
-                  className="ff_maison fw-medium fs_15 text-black lh_normal"
+                  className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
                   href=""
                 >
                   How We Help <span className="fs_6">▼</span>

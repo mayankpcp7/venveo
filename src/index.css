@@ -19,7 +19,10 @@
   --fs-15: 15px;
   --fs-6: 6px;
   --fs-80: 80px;
+  --fs-70: 70px;
   --fs-30: 30px;
+  --fs-40: 40px;
+  --fs-50: 50px;
 }
 .fs_15 {
   font-size: var(--fs-15);
@@ -32,4 +35,13 @@
 }
 .fs_30 {
   font-size: var(--fs-30);
+}
+.fs_40 {
+  font-size: var(--fs-40);
+}
+.fs_70 {
+  font-size: var(--fs-70);
+}
+.fs_50{
+  font-size: var(--fs-50);
 }
