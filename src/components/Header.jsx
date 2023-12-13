@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <header className="position-relative mb-sm-5 pb-2">
-        <img className="navlogo" src={navlogo} alt="navlogo" />
+        <img className="navlogo c_pointer" src={navlogo} alt="navlogo" />
         <MyNav />
         <img
           className="hw_800 position-absolute d-none d-lg-block end-0"
@@ -28,7 +28,7 @@ const Header = () => {
               innovation every single day.
             </p>
             <button className="current_btn mx-lg-0 mx-auto text-white fw-semibold fs_!5 bg_red ps-2 pb-1 border-none">
-              Current Open Positions <img src={downarrow} alt="down" />
+              Current Open Positions <img className="ps-2 white_arrow transition_300" src={downarrow} alt="down" />
             </button>
           </div>
           <div>

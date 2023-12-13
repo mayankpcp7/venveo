@@ -84,7 +84,7 @@ const CoreValues = () => {
       </section>
       <span className="mt-4">
         <img
-          className="w-100 drive_bottom my-xl-5 py-5"
+          className="w-100 drive_bottom my-xl-5 py-md-5 py-3"
           src={bottomdrive}
           alt="drivebottom"
         />

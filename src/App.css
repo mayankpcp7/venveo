@@ -49,6 +49,21 @@
   padding: 0px 31.759px 0px 31.637px;
   border: none !important;
 }
+.nav_btn:hover .nav_arrow {
+  transform: translateX(30%);
+}
+.transition_300 {
+  transition: 300ms linear;
+}
+ul li a:hover {
+  color: #ff4242 !important;
+}
+.scale_high:hover {
+  transform: scale(1.2);
+}
+.current_btn:hover .white_arrow {
+  transform: translateY(40%);
+}
 /* -----------------------Header--------------------- */
 .clr_sky {
   color: #00afb5;
@@ -420,6 +435,9 @@ div.accordion-body {
   transform: translatey(-50%);
 }
 @media (max-width: 576px) {
+  .mt_n4 {
+    margin-top: -80px !important;
+  }
   .hw_honor {
     width: 100% !important;
     object-fit: cover !important;
@@ -501,13 +519,33 @@ div.accordion-body {
   .hw_drive {
     max-width: 608px;
   }
+  .mt_121 {
+    margin-top: 71px;
+  }
 }
 @media (max-width: 992px) {
+  .pb_227 {
+    padding-bottom: 200px !important;
+  }
+  .mt_n4 {
+    margin-top: -50px;
+  }
   .ms_132 {
     margin-left: auto !important;
     margin-right: auto !important;
     padding-left: 12px;
     padding-right: 12px;
+  }
+  .px_65 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .py_65 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .mt_121 {
+    margin-top: 51px;
   }
   .mt_132 {
     margin-top: 76px;
@@ -520,7 +558,7 @@ div.accordion-body {
     width: 500px;
   }
   .fs_120 {
-    font-size: 76px;
+    font-size: 56px;
   }
   .mw_426 {
     max-width: none !important;
@@ -542,6 +580,14 @@ div.accordion-body {
   }
 }
 @media (max-width: 630px) {
+  .px_65 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .py_65 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   .hw_drive {
     width: 100% !important;
     object-fit: cover !important;
