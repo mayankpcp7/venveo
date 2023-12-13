@@ -102,7 +102,7 @@ const Footer = () => {
               </Row>
             </Col>
             <Col xxl={4} xl={12} lg={10}>
-              <div className="d-flex flex-column pt-4 pt-xl-0 align-items-xxl-center align-items-start">
+              <div className="d-flex flex-column pt-md-4 pt-xl-0 align-items-xxl-center align-items-start">
                 <p className="text-white text-center fs_30 ff_maison fw-light lh_normal ls_2 pt-4">
                   Get weekly data — and insights.
                 </p>
@@ -144,10 +144,10 @@ const Footer = () => {
                   <h6 className="text-white ff_maison fw-medium mt-sm-0 mt-3 text-uppercase pb-4 fs_12">
                     contact
                   </h6>
-                  <p className="text-white ff_maison lh_153  underline_green">
+                  <p className="text-white ff_maison lh_153 c_pointer  underline_green">
                     info@venveo.com
                   </p>
-                  <p className="text-white ff_maison fs_13 ls_2 underline_green mb-0 mt-1">
+                  <p className="text-white ff_maison fs_13 ls_2 c_pointer underline_green mb-0 mt-1">
                     1 · 800 · 123 · 4567
                   </p>
                 </div>
@@ -165,19 +165,19 @@ const Footer = () => {
                 </div>
                 <div className="d-flex gap-sm-5 gap-3 align-items-center pt-3 justify-content-xl-between">
                   <a href="https://www.facebook.com/venveo/">
-                    <img src={facebook} alt="facebook" />
+                    <img className="big_hover" src={facebook} alt="facebook" />
                   </a>
                   <a href="https://www.instagram.com/venveo/">
-                    <img src={instagram} alt="instagram" />
+                    <img className="big_hover" src={instagram} alt="instagram" />
                   </a>
                   <a href="https://twitter.com/">
-                    <img src={x} alt="x" />
+                    <img className="big_hover" src={x} alt="x" />
                   </a>
                   <a href="https://www.linkedin.com/company/venveo/">
-                    <img src={linkedin} alt="linkedin" />
+                    <img className="big_hover" src={linkedin} alt="linkedin" />
                   </a>
                   <a href="https://www.youtube.com/c/Venveo">
-                    <img src={youtube} alt="youtube" />
+                    <img className="big_hover" src={youtube} alt="youtube" />
                   </a>
                 </div>
               </div>

@@ -5,7 +5,7 @@ const Joinus = () => {
   return (
     <>
       <section className="bg-white pb_227">
-        <p className="text-center fs_30 mb-0 pt-xl-5 mt-xl-5 fw-light text-black lh_normal fs_30">
+        <p className="text-center fs_30 mb-0 pt-5 mt-xl-5 fw-light text-black lh_normal fs_30">
           Ready to Join Us?
         </p>
         <h2 className="text-center text-black lh_87 mb-0 fw-bold text-uppercase ff_sohne  fs_80">
@@ -42,8 +42,8 @@ const Joinus = () => {
             We'd still love to connect. Shoot us an email at careers@venveo.com
             and tell us why you'd be a great fit to work here.
           </p>
-          <button className="text-white hw_email border-0 bg-black mb-4">
-            Email Us <img className="ps-2" src={whitearrow} alt="whitearrow" />
+          <button className="text-white transition_300 hw_email border-0 bg-black mb-4">
+            Email Us <img className="ps-2 white_arrow transition_300" src={whitearrow} alt="whitearrow" />
           </button>
         </div>
       </section>

@@ -8,18 +8,22 @@ import Footer from "./components/Footer";
 import Goals from "./components/Goals";
 import Faq from "./components/Faq";
 import Joinus from "./components/Joinus";
+import Aboutus from "./components/Aboutus";
+import Preloader from "./components/Preloader"
 function App() {
   return (
     <>
       <div>
+        <Preloader />
         <Header />
         <Passion />
         <CoreValues />
         {/* <People /> */}
-        <Joinus/>
-        <Faq/>
-        <Goals/>
-        <Footer/>
+        <Aboutus />
+        <Joinus />
+        <Faq />
+        <Goals />
+        <Footer />
       </div>
     </>
   );
