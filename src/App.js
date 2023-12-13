@@ -7,6 +7,7 @@ import CoreValues from "./components/CoreValues";
 import Footer from "./components/Footer";
 import Goals from "./components/Goals";
 import Faq from "./components/Faq";
+import Joinus from "./components/Joinus";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <Passion />
         <CoreValues />
         <People />
+        <Joinus/>
         <Faq/>
         <Goals/>
         <Footer/>

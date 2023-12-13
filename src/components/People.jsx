@@ -14,7 +14,7 @@ const People = () => {
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 992,
+        breakpoint: 1440,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -50,7 +50,7 @@ const People = () => {
         </p>
 
         <div className="d-flex justify-content-between bg_seagreen mt_149">
-     
+         
             {sliderData.map((people) => {
               return (
                 <div className="d-flex flex-column h-100 trty_48">
@@ -72,7 +72,7 @@ const People = () => {
                 </div>
               );
             })}
-          
+         
         </div>
       </section>
     </>

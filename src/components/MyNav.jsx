@@ -21,8 +21,8 @@ const MyNav = () => {
     <>
       <Nav className="bg-white">
         <div className="d-flex justify-content-end w-100 align-items-center">
-          <ul className="d-lg-flex  mb-0 d-none d-block align-items-center list-unstyled">
-            <li className="px-3 mx-2">
+          <ul className="d-xl-flex  mb-0 d-none d-block align-items-center list-unstyled">
+            <li className="px-3 mx-1">
               <div class="dropdown">
                 <a
                   className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
@@ -58,7 +58,7 @@ const MyNav = () => {
                 </ul>
               </div>
             </li>
-            <li className="px-3 mx-2">
+            <li className="px-3 mx-1">
               <div class="dropdown">
                 <a
                   className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
@@ -94,7 +94,7 @@ const MyNav = () => {
                 </ul>
               </div>
             </li>
-            <li className="px-3 mx-2">
+            <li className="px-3 mx-1">
               <div class="dropdown">
                 <a
                   className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
@@ -130,7 +130,7 @@ const MyNav = () => {
                 </ul>
               </div>
             </li>
-            <li className="px-3 mx-2 ">
+            <li className="px-3 mx-1 ">
               <a
                 className="fs_15 text-black ff_maison fw-medium"
                 href="you.com"
@@ -138,7 +138,7 @@ const MyNav = () => {
                 Resources
               </a>
             </li>
-            <li className="px-3 mx-2">
+            <li className="px-3 mx-1">
               <img src={search} alt="search" />
             </li>
 
@@ -147,7 +147,7 @@ const MyNav = () => {
             </button>
           </ul>
           <div
-            className="d-flex justify-content-between flex-column d-lg-none menu_box z_index_100 position-relative z_50"
+            className="d-flex justify-content-between flex-column d-xl-none menu_box z_index_100 position-relative z_50"
             onClick={showNav}
           >
             <h2 className="text-black fs_2xl">
@@ -155,7 +155,7 @@ const MyNav = () => {
             </h2>
           </div>
           <ul
-            className={`d-flex gap-4 mb-0 bg-white sm_nav mb-0 ps-0 d-lg-none list-unstyled ${
+            className={`d-flex gap-4 mb-0 bg-white sm_nav mb-0 ps-0 d-xl-none list-unstyled ${
               show ? "" : "start-0"
             }`}
           >

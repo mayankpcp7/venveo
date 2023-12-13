@@ -176,6 +176,7 @@
   margin-left: 134px;
   margin-right: 105px;
 }
+
 /* -----------------------------------People---------------------------------- */
 .hw_people {
   max-width: 329px;
@@ -265,7 +266,6 @@
 .accordion-collapse {
   background-color: #5cd93d !important;
   color: black !important;
-
 }
 div.accordion-body {
   padding-top: 0;
@@ -315,7 +315,7 @@ div.accordion-body {
   padding-bottom: 85px;
 }
 /* -------------------------------footer------------------------*/
-accordion-item:first-of-type {
+.accordion-item:first-of-type {
   border-top-left-radius: none !important;
   border-top-right-radius: none !important;
 }
@@ -378,7 +378,52 @@ accordion-item:first-of-type {
 .mb_95 {
   margin-bottom: 101px;
 }
+.mb_227 {
+  margin-bottom: 227px;
+}
+/* --------------Join us-------------- */
+.pb_227 {
+  padding-bottom: 227px !important;
+}
+.mw_687 {
+  max-width: 687px;
+}
+.hw_email {
+  height: 77px;
+  width: 160.2401px;
+}
+.mw_1161 {
+  max-width: 1161px;
+}
+.border_blue {
+  border-radius: 25px;
+  border: 2px solid #00afb5;
+}
+.mw_294 {
+  max-width: 294px;
+}
+.lh_88 {
+  line-height: 88%;
+}
+.mw_625 {
+  max-width: 625px;
+}
+.px_65 {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+.py_65 {
+  padding-top: 59px;
+  padding-bottom: 65px;
+}
+.intern {
+  transform: translatey(-50%);
+}
 @media (max-width: 576px) {
+  .hw_honor {
+    width: 100% !important;
+    object-fit: cover !important;
+  }
   .mx_footer {
     margin-left: 12px;
     margin-right: 12px;
@@ -388,5 +433,123 @@ accordion-item:first-of-type {
   }
   .mw_150 {
     min-width: 150px;
+  }
+  .hw_800 {
+    height: 400px !important;
+    width: 400px !important;
+  }
+  .py_113 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+  .me_171 {
+    margin-right: 0px !important;
+  }
+}
+@media (max-width: 1440px) {
+  .mt_246 {
+    margin-top: 146px;
+  }
+  .hw_800 {
+    height: 700px;
+    width: 700px;
+  }
+  .ms_132 {
+    margin-left: 102px;
+  }
+  .honor_circle {
+    right: -5%;
+    width: 100px;
+    height: 100px;
+  }
+  .hw_honor {
+    width: 608px;
+    height: 383px;
+  }
+  .drive_circle {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (max-width: 1200px) {
+  .ms_132 {
+    margin-left: 72px;
+  }
+  .fs_120 {
+    font-size: 91px;
+  }
+  .hw_800 {
+    height: 550px;
+    width: 550px;
+  }
+  .me_171 {
+    margin-right: 50px;
+  }
+  .current_btn {
+    height: 60px;
+    width: 213px;
+    border: none;
+  }
+  .py_113 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .mx_drive {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .hw_drive {
+    max-width: 608px;
+  }
+}
+@media (max-width: 992px) {
+  .ms_132 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .mt_132 {
+    margin-top: 76px;
+  }
+  .me_171 {
+    margin-right: 0px;
+  }
+  .hw_800 {
+    height: 500px;
+    width: 500px;
+  }
+  .fs_120 {
+    font-size: 76px;
+  }
+  .mw_426 {
+    max-width: none !important;
+  }
+  .navlogo {
+    top: 2%;
+    left: 2%;
+  }
+  .py_113 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .mt_246 {
+    margin-top: 60px;
+  }
+  .mx_drive {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 630px) {
+  .hw_drive {
+    width: 100% !important;
+    object-fit: cover !important;
+  }
+}
+@media (max-width: 423px) {
+  .hw_800 {
+    width: 100% !important;
+    object-fit: cover !important;
   }
 }

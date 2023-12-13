@@ -45,3 +45,39 @@
 .fs_50{
   font-size: var(--fs-50);
 }
+@media(max-width:1200px){
+  :root {
+  --fs-15: 15px;
+  --fs-6: 6px;
+  --fs-80: 80px;
+  --fs-70: 70px;
+  --fs-30: 30px;
+  --fs-40: 40px;
+  --fs-50: 50px;
+}
+
+}
+@media(max-width:992px){
+  :root {
+  --fs-15: 15px;
+  --fs-6: 6px;
+  --fs-80: 70px;
+  --fs-70: 70px;
+  --fs-30: 25px;
+  --fs-40: 30px;
+  --fs-50: 35px;
+}
+
+}
+@media(max-width:576px){
+  :root {
+  --fs-15: 15px;
+  --fs-6: 6px;
+  --fs-80: 50px;
+  --fs-70: 70px;
+  --fs-30: 20px;
+  --fs-40: 40px;
+  --fs-50: 30px;
+}
+
+}
