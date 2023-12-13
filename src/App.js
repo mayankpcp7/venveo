@@ -15,7 +15,7 @@ function App() {
         <Header />
         <Passion />
         <CoreValues />
-        <People />
+        {/* <People /> */}
         <Joinus/>
         <Faq/>
         <Goals/>
