@@ -12,7 +12,7 @@ const Faq = () => {
           Do you have additional questions about PPC management services? Browse
           our FAQ.
         </p>
-        <Accordion defaultActivekey="0" className="mw_948 mx-auto px_!2 mt-5">
+        <Accordion defaultActivekey="1" className="mw_948 mx-auto px_!2 mt-5">
           <Accordion.Item className="mb_30 border_white bg-black" evenKey="0">
             <Accordion.Header>
               <h4 className="ff_maison fs_30 fw-light lh_normal mb-0 text-white">

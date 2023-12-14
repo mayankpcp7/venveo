@@ -37,7 +37,7 @@ const Footer = () => {
                   </ul>
                 </Col>
                 <Col xl={3} lg={4} xs={6}>
-                  <h5 className="text-white ff_maison fs_12 fw-medium mt-3 mt-sm-0 lh_108 mb-0 mb-4 text-uppercase">
+                  <h5 className="text-white ff_maison fs_12 fw-medium  lh_108 mb-0 mb-4 text-uppercase">
                     who we help
                   </h5>
                   <ul className="d-flex flex-column align-items-start ps-0">

@@ -10,6 +10,8 @@ import Faq from "./components/Faq";
 import Joinus from "./components/Joinus";
 import Aboutus from "./components/Aboutus";
 import Preloader from "./components/Preloader"
+import Collaboration from "./components/Collaboration";
+import Websites from "./components/Websites";
 function App() {
   return (
     <>
@@ -18,7 +20,9 @@ function App() {
         <Header />
         <Passion />
         <CoreValues />
-        {/* <People /> */}
+        <People />
+        {/* <Collaboration/> */}
+        {/* <Websites/> */}
         <Aboutus />
         <Joinus />
         <Faq />

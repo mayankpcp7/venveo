@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
 @font-face {
   font-family: "Maison Neue";
   src: url("./assets/fonts/Maison-neue/FontsFree-Net-Maison-Neue-Light.ttf");
@@ -14,6 +16,9 @@
 }
 .ff_maison {
   font-family: "Maison Neue";
+}
+.ff_space {
+font-family: 'Space Mono', monospace;
 }
 :root {
   --fs-15: 15px;
@@ -42,42 +47,39 @@
 .fs_70 {
   font-size: var(--fs-70);
 }
-.fs_50{
+.fs_50 {
   font-size: var(--fs-50);
 }
-@media(max-width:1200px){
+@media (max-width: 1200px) {
   :root {
-  --fs-15: 15px;
-  --fs-6: 6px;
-  --fs-80: 80px;
-  --fs-70: 70px;
-  --fs-30: 30px;
-  --fs-40: 35px;
-  --fs-50: 50px;
+    --fs-15: 15px;
+    --fs-6: 6px;
+    --fs-80: 80px;
+    --fs-70: 70px;
+    --fs-30: 30px;
+    --fs-40: 35px;
+    --fs-50: 50px;
+  }
 }
-
-}
-@media(max-width:992px){
+@media (max-width: 992px) {
   :root {
-  --fs-15: 15px;
-  --fs-6: 6px;
-  --fs-80: 70px;
-  --fs-70: 70px;
-  --fs-30: 25px;
-  --fs-40: 30px;
-  --fs-50: 35px;
+    --fs-15: 15px;
+    --fs-6: 6px;
+    --fs-80: 70px;
+    --fs-70: 70px;
+    --fs-30: 25px;
+    --fs-40: 30px;
+    --fs-50: 35px;
+  }
 }
-
-}
-@media(max-width:576px){
+@media (max-width: 576px) {
   :root {
-  --fs-15: 15px;
-  --fs-6: 6px;
-  --fs-80: 50px;
-  --fs-70: 70px;
-  --fs-30: 20px;
-  --fs-40: 25px;
-  --fs-50: 30px;
-}
-
+    --fs-15: 15px;
+    --fs-6: 6px;
+    --fs-80: 50px;
+    --fs-70: 70px;
+    --fs-30: 20px;
+    --fs-40: 25px;
+    --fs-50: 30px;
+  }
 }
