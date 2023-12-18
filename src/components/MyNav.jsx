@@ -140,11 +140,20 @@ const MyNav = () => {
               </a>
             </li>
             <li className="px-3 mx-1">
-              <img className="c_pointer scale_high transition_300" src={search} alt="search" />
+              <img
+                className="c_pointer scale_high transition_300"
+                src={search}
+                alt="search"
+              />
             </li>
 
             <button className="bg_parrot ff_maison fw-semibold transition_300 nav_btn border-none ms-3">
-              Let’s Talk <img className="pb-1 nav_arrow transition_300" src={arrow} alt="arrow" />
+              Let’s Talk{" "}
+              <img
+                className="pb-1 nav_arrow transition_300"
+                src={arrow}
+                alt="arrow"
+              />
             </button>
           </ul>
           <div
@@ -281,7 +290,12 @@ const MyNav = () => {
             </li>
 
             <button className="bg_parrot ff_maison fw-semibold nav_btn border-none">
-              Let’s Talk <img className="pb-1" src={arrow} alt="arrow" />
+              Let’s Talk{" "}
+              <img
+                className="pb-1 nav_arrow transition_300"
+                src={arrow}
+                alt="arrow"
+              />
             </button>
           </ul>
         </div>
