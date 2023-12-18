@@ -2,7 +2,24 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import arrow from "../assets/images/svg/arrow.svg";
 import redarrow from "../assets/images/png/red arrow.png";
+import { useState } from "react";
 const Websites = () => {
+    const [typicalform, setTypicalForm] = useState({
+      email: "",
+    });
+    const [error, setError] = useState(false);
+    const regex =
+      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    const OnsubmitHandler = (e) => {
+      e.preventDefault();
+      setError(true);
+      if (typicalform.email !== "" && regex.test(typicalform.email)) {
+        setError(false);
+        setTypicalForm({
+          email: "",
+        });
+      }
+    };
   return (
     <>
       <section className="bg_parrot position-relative">
@@ -133,7 +150,10 @@ const Websites = () => {
             </Col>
             <Col md={6}>
               <div>
-                <div className="mw_484 mx-auto pb_87 d-flex flex-column align-items-sm-start">
+                <form
+                  className="mw_484 mx-auto pb_87 d-flex flex-column align-items-sm-start"
+                  onSubmit={(e) => OnsubmitHandler(e)}
+                >
                   <p
                     className="ff_maison text-black fs_40 mt-5 pt-md-4 text-black mb-0 fs_15 lh_normal fw-normal"
                     data-aos="zoom-out-left"
@@ -157,6 +177,13 @@ const Websites = () => {
                     type="text"
                   />
                   <input
+                    onChange={(e) =>
+                      setTypicalForm({
+                        ...typicalform,
+                        email: e.target.value,
+                      })
+                    }
+                    value={typicalform.email}
                     className="website_input px-3"
                     data-aos="zoom-out-left"
                     data-aos-duration="2000"
@@ -170,10 +197,11 @@ const Websites = () => {
                     placeholder="Enter Your Website"
                     type="text"
                   />
-                  <button
+                  <button 
                     className="analize_btn transition_300 text-black ws_2 mt-5 ff_maison fs_15 lh_normal d-flex justify-content-center align-items-center fw-semibold"
                     data-aos="zoom-out-left"
                     data-aos-duration="1500"
+                   
                   >
                     Analyze Your Site{" "}
                     <img
@@ -182,7 +210,7 @@ const Websites = () => {
                       alt="arrow"
                     />
                   </button>
-                </div>
+                </form>
               </div>
             </Col>
           </Row>

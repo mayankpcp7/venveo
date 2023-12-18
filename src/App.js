@@ -23,13 +23,13 @@ function App() {
   }, []);
   return (
     <>
-      <div>
+      <div className="overflow-hidden">
         <Preloader />
         <Header />
         <Passion />
         <CoreValues />
         <People />
-        {/* <Collaboration/> */}
+        <Collaboration/>
         <Websites />
         <Aboutus />
         <Joinus />

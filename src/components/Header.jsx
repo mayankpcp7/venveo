@@ -23,7 +23,7 @@ const Header = () => {
             <h1 className="ff_sohne fw-bold fs_120 text-black text-center text-lg-start text-uppercase lh_86"div data-aos="fade-right">
               Flex your creative muscle
             </h1>
-            <p className="text-start mx-lg-0 mx-auto ff_maison fs_15 text-center text-lg-start lh_166 mw_396 text-black fs_15 fw-normal">
+            <p className="text-start mx-lg-0 mx-auto ff_maison fs_15 text-center text-lg-start lh_166 mw_396 text-black py-4 fs_15 fw-normal">
               Become part of a growing team that believes in integrity and
               innovation every single day.
             </p>

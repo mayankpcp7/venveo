@@ -267,6 +267,30 @@ ul li a:hover {
   background-color: #097980;
 }
 /* ---------------------------Collaboration------------------------ */
+.py_235 {
+  padding-top: 235px;
+  padding-bottom: 123px;
+}
+.collab1 {
+  top: 5%;
+  right: 9%;
+}
+.collab2 {
+  top: 9%;
+  left: 14%;
+}
+.collab3 {
+  bottom: 33%;
+  left: 3%;
+}
+.collab4 {
+  bottom: 22%;
+  right: 0%;
+}
+.collab5 {
+  bottom: 9%;
+  right: 28%;
+}
 .nav-link {
   color: #bebebe !important;
   font-family: "Maison Neue" !important;
@@ -283,13 +307,13 @@ ul li a:hover {
 }
 .nav-link.active {
   position: relative !important;
+  border: none !important;
 }
 .nav-link.active::before {
   content: url(./assets/images/png/collabline.png);
   position: absolute;
   top: -90%;
   left: -5%;
-  width: 100%;
 }
 .nav-link.active::after {
   content: "5";
@@ -298,9 +322,9 @@ ul li a:hover {
   top: -100%;
   color: #bebebe;
   font-family: "Maison Neue";
-  font-size: 120px;
+  font-size: 80px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 48px;
 }
 /* ---------------------------Aboutus----------------------------- */
@@ -378,6 +402,7 @@ ul li a:hover {
   color: rgb(0, 0, 0) !important;
   background-color: #5cd93d !important;
   padding-bottom: 9px !important;
+  border: none !important;
 }
 .accordion-collapse {
   background-color: #5cd93d !important;
@@ -418,9 +443,13 @@ div.accordion-body {
 .accordion-button:not(.collapsed).accordion-button {
   padding-bottom: 31px !important;
 }
-.accordion-item:active.accordion-header {
+.accordion-button:not(.collapsed).accordion-button h4 {
   color: #000 !important;
 }
+.accordion-button:not(.collapsed).accordion-item {
+ border: none !important;
+}
+
 
 /* ------------------------------Goals-------------------------- */
 .bg_goals {
@@ -725,6 +754,10 @@ li.slick-active {
   font-size: 25px;
 }
 @media (max-width: 576px) {
+  .py_235 {
+    padding-top: 70px;
+  }
+
   .honor_circle {
     height: 80px !important;
     width: 80px !important;
@@ -775,6 +808,13 @@ li.slick-active {
   .me_171 {
     margin-right: 0px !important;
   }
+  .collab2,
+  .collab3,
+  .collab4,
+  .collab5,
+  .collab1 {
+    max-width: 150px;
+  }
 }
 @media (min-width: 1441px) {
   .mx_drive {
@@ -811,6 +851,40 @@ li.slick-active {
   }
 }
 @media (max-width: 1200px) {
+  .nav-link.active::after {
+    content: "5";
+    position: absolute;
+    right: -3%;
+    top: -68%;
+    color: #bebebe;
+    font-family: "Maison Neue";
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+  }
+  .nav-link.active::before {
+    content: none;
+    position: absolute;
+    top: -90%;
+    left: -5%;
+  }
+  .collab2 {
+    top: 3%;
+    left: 3%;
+  }
+  .collab5 {
+    bottom: 6%;
+  }
+  .nav-link {
+    color: #bebebe !important;
+    font-family: "Maison Neue" !important;
+    font-size: 90px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 48px !important;
+    margin-bottom: 60px !important;
+  }
   .py_123 {
     margin-top: 80px;
     margin-bottom: 80px;
@@ -899,6 +973,24 @@ li.slick-active {
   }
 }
 @media (max-width: 992px) {
+  .nav-link {
+    color: #bebebe !important;
+    font-family: "Maison Neue" !important;
+    font-size: 60px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 48px !important;
+    margin-bottom: 30px !important;
+  }
+  .nav-link.active::after {
+    content: "5";
+    position: absolute;
+    right: -3%;
+    top: -28%;
+    color: #bebebe;
+    font-family: "Maison Neue";
+    font-size: 45px;
+  }
   .py_123 {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -1025,8 +1117,51 @@ li.slick-active {
     margin-left: 0px;
     margin-right: 0px;
   }
+  .collab1 {
+    top: 5%;
+    right: 9%;
+  }
+  .collab2 {
+    top: 9%;
+    left: 14%;
+    max-width: 300px;
+  }
+  .collab3 {
+    bottom: 33%;
+    left: 3%;
+  }
+  .collab4 {
+    bottom: 22%;
+    right: 0%;
+    max-width: 270px;
+  }
+  .collab5 {
+    bottom: 4%;
+    right: 28%;
+  }
+  .py_235 {
+    padding-top: 100px;
+  }
 }
 @media (max-width: 768px) {
+  .nav-link {
+    color: #bebebe !important;
+    font-family: "Maison Neue" !important;
+    font-size: 40px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 48px !important;
+    margin-bottom: 10px !important;
+  }
+  .nav-link.active::after {
+    content: "5";
+    position: absolute;
+    right: -3%;
+    top: -18%;
+    color: #bebebe;
+    font-family: "Maison Neue";
+    font-size: 25px;
+  }
   .py_123 {
     margin-top: 45px;
     margin-bottom: 45px;
@@ -1058,8 +1193,25 @@ li.slick-active {
   .mt_80 {
     margin-top: 45px !important;
   }
+  .collab2 {
+    left: 5%;
+  }
+  .collab4 {
+    max-width: 200px;
+  }
 }
 @media (max-width: 630px) {
+  .collab3 {
+    bottom: 40%;
+  }
+  .collab2 {
+    max-width: 150px;
+    top: 20%;
+  }
+  .collab4 {
+    bottom: 30%;
+    max-width: 150px;
+  }
   .min_h_64 {
     min-height: 50px;
   }
@@ -1098,7 +1250,7 @@ li.slick-active {
   margin: 24px;
   width: 50px;
   height: 50px;
-  background:white;
+  background: white;
   animation: zoom-in-zoom-out 2s ease-out infinite;
 }
 
