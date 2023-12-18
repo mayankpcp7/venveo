@@ -6,13 +6,25 @@ const CoreValues = () => {
   return (
     <>
       <section className="mt-xl-5 mt-lg-3  pt-5">
-        <p className="text-center fs_30 lh_normal pt-xl-4 mt-xl-3 ff_maison mb-0">
+        <p
+          className="text-center fs_30 lh_normal pt-xl-4 mt-xl-3 ff_maison mb-0"
+          data-aos="zoom-in-up"
+          data-aos-duration="2500"
+        >
           Our Company Culture
         </p>
-        <h2 className="ff_sohne fs_80 fw-bold text-center text-black mb-3 pb-xl-4 text-uppercase lh_87">
+        <h2
+          className="ff_sohne fs_80 fw-bold text-center text-black mb-3 pb-xl-4 text-uppercase lh_87"
+          data-aos="zoom-in-up"
+          data-aos-duration="2700"
+        >
           our core values
         </h2>
-        <p className="text-center ff_maison mw_621 mx-auto fs_15 lh_133 text-black">
+        <p
+          className="text-center ff_maison mw_621 mx-auto fs_15 lh_133 text-black"
+          data-aos="zoom-in-up"
+          data-aos-duration="2800"
+        >
           Venveo is committed to creating an environment where our team members
           thrive and are excited to arrive each day. Not only do we strive to
           create an impactful experience for our clients, we work to do the same
@@ -34,43 +46,89 @@ const CoreValues = () => {
             />
           </span>
 
-          <div className="d-flex flex-column align-items-lg-start align-items-center me_171 mt-xl-5 ps-lg-5 px_12 ps-xxl-0">
-            <h2 className="ff_sohne fw-bold text-uppercase mb-0 fs_80 text-black lh_87 mt-xl-3 pt-xl-5">
+          <div className="d-flex flex-column align-items-lg-start align-items-center  me_171 mt-xl-5 ps-lg-5 px_12 ms-lg-5 me_171">
+            <h2
+              className="ff_sohne fw-bold text-uppercase mb-0 fs_80 text-black lh_87 mt-xl-3 pt-xl-5"
+              data-aos="zoom-in-left"
+              data-aos-duration="2500"
+            >
               honor
             </h2>
-            <p className="ff_maison mb-0 text-black fw-normal mt-3 fs_15 mw_433 lh_133 pt-2">
+            <p
+              className="ff_maison mb-0 text-black fw-light mt-3 fs_15 mw_433 lh_133 pt-2"
+              data-aos="zoom-in-left"
+              data-aos-duration="2700"
+            >
               We place our team and clients first.
             </p>
-            <p className="mt-3 text-black ff_maison fw-normal text-lg-start text-center fs_15 mw_433">
+            <p
+              className="mt-3 text-black ff_maison fw-light text-lg-start text-center fs_15 mw_433"
+              data-aos="zoom-in-left"
+              data-aos-duration="2900"
+            >
               We stay true to our word and are devoted to accountability and
               commitment.
             </p>
-            <img
-              className="hw_honor d-lg-none d-block"
-              src={honor}
-              alt="honor"
-            />
+            <span className="position-relative d-lg-none d-block">
+              <span className="drive_circle position-absolute">
+                <p className="drive_2 ff_sohne mb-0 fs_80 fw-bold text-black ">
+                  1
+                </p>
+              </span>
+              <img
+                className="hw_honor d-lg-none d-block"
+                src={honor}
+                alt="honor"
+              />
+            </span>
           </div>
         </div>
       </section>
       <section className="mt_246 mx_drive">
         <div className="d-flex  position-relative mt-3  justify-content-lg-between justify-content-center align-items-lg-center align-items-start">
-          <div className="d-flex flex-column pe-lg-5 pe-lg-0 px_12 px-lg-0">
-            <h2 className="text-lg-start text-center fs_80 ff_sohne text-black text-uppercase fw-bold lh_87">
+          <div className="d-flex flex-column mx_0 px_0 pe-lg-5 me-lg-4 me-xl-0 px_12">
+            <h2
+              className="text-lg-start text-center fs_80 ff_sohne text-black text-uppercase fw-bold lh_87"
+              data-aos="fade-in-right"
+              data-aos-duration="2500"
+            >
               Drive
             </h2>
-            <p className="mw_433 mx-lg-0 mx-auto text-lg-start text-center ff_maison fw-normal fs_15 ">
+            <p
+              className="mw_433 mx-lg-0 mx-auto text-lg-start text-center ff_maison fw-light fs_15 "
+              data-aos="fade-in-right"
+              data-aos-duration="2700"
+            >
               We are a team of experts that are relentless about exceptional
               quality and breakthrough results.
             </p>
-            <p className="mw_433 mx-lg-0 mx-auto  text-lg-start text-center ff_maison fw-normal fs_15 ">
+            <p
+              className="mw_433 mx-lg-0 mx-auto  text-lg-start text-center ff_maison fw-light fs_15 "
+              data-aos="fade-in-right"
+              data-aos-duration="2900"
+            >
               We challenge our team and clients to rise to their truest and
               most-fulfilled selves.
             </p>
-            <p className="mw_433 mx-lg-0 mx-auto  text-lg-start text-center ff_maison fw-normal fs_15 ">
+            <p
+              className="mw_433 mx-lg-0 mx-auto  text-lg-start text-center ff_maison fw-light fs_15 "
+              data-aos="fade-in-right"
+              data-aos-duration="2900"
+            >
               Failure is never final.
             </p>
-            <img className="hw_drive w_100 d-lg-none" src={drive} alt="drive" />
+            <span className="position-relative d-lg-none d-block">
+              <span className="drive_circle position-absolute">
+                <p className="drive_2 ff_sohne mb-0 fs_80 fw-bold text-black ">
+                  2
+                </p>
+              </span>
+              <img
+                className="hw_drive w_100 d-lg-none"
+                src={drive}
+                alt="drive"
+              />
+            </span>
           </div>
           <span className="position-relative d-lg-block d-none">
             <span className="drive_circle position-absolute">
@@ -82,13 +140,9 @@ const CoreValues = () => {
           </span>
         </div>
       </section>
-      <span className="mt-4">
-        <img
-          className="w-100 drive_bottom my-xl-5 py-md-5 py-3"
-          src={bottomdrive}
-          alt="drivebottom"
-        />
-      </span>
+      
+        <img className="w-100 py_123" src={bottomdrive} alt="bottomdrive" />
+      
     </>
   );
 };

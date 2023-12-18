@@ -19,13 +19,14 @@ const MyNav = () => {
 
   return (
     <>
-      <Nav className="bg-white py-4 py-xl-0">
-        <div className="d-flex justify-content-end w-100 align-items-center">
-          <ul className="d-xl-flex  mb-0 d-none d-block align-items-center list-unstyled">
+      <Nav className="bg-white py-xl-0">
+        <div className="d-flex justify-content-xl-end justify-content-between w-100 align-items-center">
+          <img className="d-xl-none ps-3 wh_60" src={navlogo} alt="navlogo" />
+          <ul className="d-lg-flex  mb-0 d-none d-block align-items-center list-unstyled">
             <li className="px-3 mx-1">
               <div class="dropdown">
                 <a
-                  className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
+                  className="ff_maison fw-semibold fs_15 text-black text_decoration_none lh_normal"
                   href="#"
                 >
                   How We Help <span className="fs_6">▼</span>
@@ -33,7 +34,7 @@ const MyNav = () => {
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Action
@@ -41,7 +42,7 @@ const MyNav = () => {
                   </li>
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Another action
@@ -49,7 +50,7 @@ const MyNav = () => {
                   </li>
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Something else here
@@ -61,7 +62,7 @@ const MyNav = () => {
             <li className="px-3 mx-1">
               <div class="dropdown">
                 <a
-                  className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
+                  className="ff_maison fw-semibold fs_15 text-black text_decoration_none lh_normal"
                   href=""
                 >
                   Who We Help <span className="fs_6">▼</span>
@@ -69,7 +70,7 @@ const MyNav = () => {
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Action
@@ -77,7 +78,7 @@ const MyNav = () => {
                   </li>
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Another action
@@ -85,7 +86,7 @@ const MyNav = () => {
                   </li>
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Something else here
@@ -97,7 +98,7 @@ const MyNav = () => {
             <li className="px-3 mx-1">
               <div class="dropdown">
                 <a
-                  className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
+                  className="ff_maison fw-semibold fs_15 text-black text_decoration_none lh_normal"
                   href=""
                 >
                   Why Venveo <span className="fs_6">▼</span>
@@ -105,7 +106,7 @@ const MyNav = () => {
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Action
@@ -113,7 +114,7 @@ const MyNav = () => {
                   </li>
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Another action
@@ -121,7 +122,7 @@ const MyNav = () => {
                   </li>
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Something else here
@@ -132,7 +133,7 @@ const MyNav = () => {
             </li>
             <li className="px-3 mx-1 ">
               <a
-                className="fs_15 text-decoration-none text-black ff_maison fw-medium"
+                className="fs_15 text-decoration-none text-black ff_maison fw-semibold"
                 href="you.com"
               >
                 Resources
@@ -147,10 +148,10 @@ const MyNav = () => {
             </button>
           </ul>
           <div
-            className="d-flex justify-content-between flex-column d-xl-none menu_box z_index_100 position-relative z_50"
+            className="d-flex justify-content-between flex-column d-lg-none menu_box z_index_100 position-relative z_50"
             onClick={showNav}
           >
-            <h2 className="clr_red fs_20">
+            <h2 className="clr_red me-4">
               {show ? <HiMenuAlt1 /> : <AiOutlineClose />}
             </h2>
           </div>
@@ -162,7 +163,7 @@ const MyNav = () => {
             <li>
               <div class="dropdown">
                 <a
-                  className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
+                  className="ff_maison fw-semibold fs_15 text-black text_decoration_none lh_normal"
                   href=""
                 >
                   How We Help <span className="fs_6">▼</span>
@@ -170,7 +171,7 @@ const MyNav = () => {
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Action
@@ -178,7 +179,7 @@ const MyNav = () => {
                   </li>
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Another action
@@ -186,7 +187,7 @@ const MyNav = () => {
                   </li>
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Something else here
@@ -198,7 +199,7 @@ const MyNav = () => {
             <li>
               <div class="dropdown">
                 <a
-                  className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
+                  className="ff_maison fw-semibold fs_15 text-black text_decoration_none lh_normal"
                   href=""
                 >
                   Who We Help <span className="fs_6">▼</span>
@@ -206,7 +207,7 @@ const MyNav = () => {
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Action
@@ -214,7 +215,7 @@ const MyNav = () => {
                   </li>
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Another action
@@ -222,7 +223,7 @@ const MyNav = () => {
                   </li>
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Something else here
@@ -234,7 +235,7 @@ const MyNav = () => {
             <li>
               <div class="dropdown">
                 <a
-                  className="ff_maison fw-medium fs_15 text-black text_decoration_none lh_normal"
+                  className="ff_maison fw-semibold fs_15 text-black text_decoration_none lh_normal"
                   href=""
                 >
                   Why Venveo<span className="fs_6">▼</span>
@@ -242,7 +243,7 @@ const MyNav = () => {
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Action
@@ -250,7 +251,7 @@ const MyNav = () => {
                   </li>
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Another action
@@ -258,7 +259,7 @@ const MyNav = () => {
                   </li>
                   <li>
                     <a
-                      class="dropdown-item ff_maison fw-medium fs_15 text-black lh_normal"
+                      class="dropdown-item ff_maison fw-semibold fs_15 text-black lh_normal"
                       href="#"
                     >
                       Something else here
@@ -269,7 +270,7 @@ const MyNav = () => {
             </li>
             <li>
               <a
-                className="fs_15 text-black text-decoration-none ff_maison fw-medium"
+                className="fs_15 text-black text-decoration-none ff_maison fw-semibold"
                 href="you.com"
               >
                 Resources

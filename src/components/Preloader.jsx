@@ -8,9 +8,9 @@ const Preloader = () => {
 
   return (
     <section>
-      <div id="preloader" className="position-fixed z_100 min-vh-100 w-100">
+      <div id="preloader" className="position-fixed z_100 vh-100 w-100">
         <div className="d-flex align-items-center z_100 justify-content-center w-100 min-vh-100 bg-white">
-          <img src={logo} alt="preloaderlogo" />
+          <img className="zoom-in-zoom-out" src={logo} alt="preloaderlogo" />
         </div>
       </div>
     </section>

@@ -9,10 +9,18 @@ import Goals from "./components/Goals";
 import Faq from "./components/Faq";
 import Joinus from "./components/Joinus";
 import Aboutus from "./components/Aboutus";
-import Preloader from "./components/Preloader"
+import Preloader from "./components/Preloader";
 import Collaboration from "./components/Collaboration";
 import Websites from "./components/Websites";
+import Backtotop from "./components/Backtotop";
+import Aos from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    Aos.init({ once: true, disable: "mobile" });
+    Aos.refresh();
+  }, []);
   return (
     <>
       <div>
@@ -22,12 +30,13 @@ function App() {
         <CoreValues />
         <People />
         {/* <Collaboration/> */}
-        {/* <Websites/> */}
+        <Websites />
         <Aboutus />
         <Joinus />
         <Faq />
         <Goals />
         <Footer />
+        <Backtotop />
       </div>
     </>
   );

@@ -10,100 +10,134 @@ const Footer = () => {
   return (
     <>
       <footer className="bg_darksky">
-        <div className=" mx_footer pt_90">
-          <Row className="justify-content-between">
+        <div className="container pt_90">
+          <Row className="justify-content-xl-between justify-content-center ">
             <Col xxl={8} xl={12}>
               <Row>
-                <Col xl={3} lg={4} xs={6}>
+                <Col
+                  xl={3}
+                  md={4}
+                  xs={6}
+                  className="col_12"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
                   <h5 className="text-white ff_maison fs_12 fw-medium lh_108 mb-0 mb-4 text-uppercase">
                     how we help
                   </h5>
                   <ul className="d-flex flex-column align-items-start ps-0">
-                    <li className="lh_200 fs_maison fw-light pb-3 c_pointer fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light pb-xl-3 c_pointer pb-2 fs_15 text-white">
                       Drive More Awareness
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       Get more Customers
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       Build Your Brand
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       mprove your reputation
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       Track Results
                     </li>
                   </ul>
                 </Col>
-                <Col xl={3} lg={4} xs={6}>
+                <Col
+                  xl={3}
+                  md={4}
+                  xs={6}
+                  className="col_12"
+                  data-aos="fade-up"
+                  data-aos-duration="2200"
+                >
                   <h5 className="text-white ff_maison fs_12 fw-medium  lh_108 mb-0 mb-4 text-uppercase">
                     who we help
                   </h5>
                   <ul className="d-flex flex-column align-items-start ps-0">
-                    <li className="lh_200 fs_maison fw-light pb-3 c_pointer fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light pb-xl-3 c_pointer pb-2 fs_15 text-white">
                       Digital Advertising
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       Search Engine Ranking
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       Content Marketing
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       Programic Advertising
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       Email Marketing
                     </li>
                   </ul>
                 </Col>
-                <Col xl={3} lg={4} xs={6}>
+                <Col
+                  xl={3}
+                  md={4}
+                  xs={6}
+                  className="col_12"
+                  data-aos="fade-up"
+                  data-aos-duration="2400"
+                >
                   <h5 className="text-white mt-3 mt-lg-0 ff_maison fs_12 fw-medium lh_108 mb-0 mb-4 text-uppercase">
                     why venveo
                   </h5>
                   <ul className="d-flex flex-column align-items-start ps-0">
-                    <li className="lh_200 fs_maison fw-light pb-3 c_pointer fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light pb-xl-3 c_pointer pb-2 fs_15 text-white">
                       About Us
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       Careers
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       Growth Studies
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       Testimonials
                     </li>
                   </ul>
                 </Col>
-                <Col xl={3} lg={4} xs={6}>
+                <Col
+                  xl={3}
+                  md={4}
+                  xs={6}
+                  className="col_12"
+                  data-aos="fade-up"
+                  data-aos-duration="2600"
+                >
                   <h5 className="text-white mt-xl-0 mt-3 ff_maison fs_12 fw-medium lh_108 mb-0 mb-4 text-uppercase">
                     resources
                   </h5>
                   <ul className="d-flex flex-column align-items-start ps-0">
-                    <li className="lh_200 fs_maison fw-light pb-3 c_pointer fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light pb-xl-3 c_pointer pb-2 fs_15 text-white">
                       Articles
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       News
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       Webinars
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       EBooks
                     </li>
-                    <li className="lh_200 fs_maison fw-light c_pointer pb-3 fs_15 text-white">
+                    <li className="lh_200 ff_maison fw-light c_pointer pb-xl-3 pb-2 fs_15 text-white">
                       Podcast
                     </li>
                   </ul>
                 </Col>
               </Row>
             </Col>
-            <Col xxl={4} xl={12} lg={10}>
-              <div className="d-flex flex-column pt-md-4 pt-xl-0 align-items-xxl-center align-items-start">
-                <p className="text-white text-center fs_30 ff_maison fw-light lh_normal ls_2 pt-4">
+            <Col
+              xxl={4}
+              xl={12}
+              lg={10}
+              data-aos="fade-up"
+              data-aos-duration="2200"
+            >
+              <div className="d-flex flex-column pt-md-2 pt-xl-0 align-items-xxl-center align-items-start">
+                <p className="text-white text-center fs_25 ff_maison fw-light lh_normal ls_2 pt-4">
                   Get weekly data — and insights.
                 </p>
                 <div className="d-flex justify-content-between align-items-center min_h_64 mw_449 rounded_50 bg-transparent mx-xxl-auto border_white mt-3">
@@ -124,7 +158,7 @@ const Footer = () => {
           </Row>
           <Row className="mt_80 justify-content=-between">
             <Col xl={4} lg={6}>
-              <img src={footerlogo} alt="footerlogo" />
+              <img className="c_pointer" src={footerlogo} alt="footerlogo" />
               <p className="text-start mt-2 mw_315 text-white fs_13 fw-normal lh_153">
                 Venveo is an award-winning digital marketing solutions provider.
                 Since 2003. ©2023 Venveo
@@ -155,7 +189,7 @@ const Footer = () => {
             </Col>
             <Col xl={4} lg={6}>
               <div className="d-flex flex-column  align-items-xxl-end">
-                <div className="d-flex mt-4">
+                <div className="d-flex mt-md-4 mt-3">
                   <p className="text-white ff_maison fs_13  text-capitalize pe-3">
                     All Rights Reserved
                   </p>
@@ -168,7 +202,11 @@ const Footer = () => {
                     <img className="big_hover" src={facebook} alt="facebook" />
                   </a>
                   <a href="https://www.instagram.com/venveo/">
-                    <img className="big_hover" src={instagram} alt="instagram" />
+                    <img
+                      className="big_hover"
+                      src={instagram}
+                      alt="instagram"
+                    />
                   </a>
                   <a href="https://twitter.com/">
                     <img className="big_hover" src={x} alt="x" />

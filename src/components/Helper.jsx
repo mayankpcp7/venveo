@@ -36,3 +36,39 @@ export const sliderData = [
     pera: "Venveo has experienced a 320% growth rate in the last three years. This record increase applies to both employees and clients, making it an exciting time to join us.",
   },
 ];
+export const Nextbtn = () => {
+  return (
+    <svg
+      class="next_btn"
+      width="41"
+      height="98"
+      viewBox="0 0 61 118"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M71 0H25C11.1929 0 0 11.1929 0 25V93C0 106.807 11.1929 118 25 118H71V0Z"
+        fill="white"
+      ></path>
+      <path d="M40 58.9966L30 64L30 54L40 58.9966Z" fill="#231F20"></path>
+    </svg>
+  );
+};
+export const Backbtn = () => {
+  return (
+    <svg
+      class="prev_btn"
+      width="41"
+      height="98"
+      viewBox="0 0 61 118"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M-10 0H36C49.8071 0 61 11.1929 61 25V93C61 106.807 49.8071 118 36 118H-10V0Z"
+        fill="white"
+      ></path>
+      <path d="M21 58.9966L31 64L31 54L21 58.9966Z" fill="#231F20"></path>
+    </svg>
+  );
+};

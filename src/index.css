@@ -2,9 +2,11 @@
 
 @font-face {
   font-family: "Maison Neue";
-  src: url("./assets/fonts/Maison-neue/FontsFree-Net-Maison-Neue-Light.ttf");
-  src: url("./assets/fonts/Maison-neue/MaisonNeue-Medium.otf");
-  src: url("./assets/fonts/Maison-neue/MaisonNeue-Mono.ttf");
+  src: url(./assets/fonts/Maison-neue/FontsFree-Net-Maison-Neue-Light.ttf);
+  src: url(./assets/fonts/Maison-neue/MaisonNeue-Bold.otf);
+  src: url(./assets/fonts/Maison-neue/MaisonNeue-Medium.otf);
+  src: url(./assets/fonts/Maison-neue/MaisonNeueMono-Regular.otf);
+  src: url(./assets/fonts/Maison-neue/FontsFree-Net-Maison-Neue-Light.ttf);
 }
 @font-face {
   font-family: "Söhne Schmal";
@@ -18,7 +20,7 @@
   font-family: "Maison Neue";
 }
 .ff_space {
-font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
 }
 :root {
   --fs-15: 15px;
@@ -58,7 +60,7 @@ font-family: 'Space Mono', monospace;
     --fs-70: 70px;
     --fs-30: 30px;
     --fs-40: 35px;
-    --fs-50: 50px;
+    --fs-50: 40px;
   }
 }
 @media (max-width: 992px) {
@@ -71,10 +73,13 @@ font-family: 'Space Mono', monospace;
     --fs-40: 30px;
     --fs-50: 35px;
   }
+  .fs_25{
+    font-size: 20px !important;
+  }
 }
 @media (max-width: 576px) {
   :root {
-    --fs-15: 15px;
+    --fs-15: 13px;
     --fs-6: 6px;
     --fs-80: 50px;
     --fs-70: 70px;
